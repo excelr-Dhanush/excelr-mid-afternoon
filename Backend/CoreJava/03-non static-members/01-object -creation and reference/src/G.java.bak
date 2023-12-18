@@ -1,0 +1,8 @@
+class G
+{
+	int i;
+	static
+	{
+		System.out.println(i);
+	}
+}

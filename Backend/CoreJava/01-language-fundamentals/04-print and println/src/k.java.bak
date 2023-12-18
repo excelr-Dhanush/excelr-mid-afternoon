@@ -1,0 +1,10 @@
+class  K
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("pepole 1");
+		System.out.println("people 2");
+	    System.out.println("people 3");
+	    System.out.println("people 4");
+	}
+}

@@ -1,0 +1,31 @@
+class  	F
+{
+	static int x;
+	F()
+	{
+		x++;
+	}
+	F(int i)
+	{
+		x++;
+	}
+	F(int i ,int j)
+	{
+		x++;
+	}
+	public static void main(String[] args) 
+	{
+		F f1 = nfw F();
+		F f2 = nfw F(10);
+		F f3 = nfw F(10,20);
+		F f4 = nfw F();
+		F f5 = nfw F(10);
+		F f6 = nfw F(10,20);
+		Systfm.out.println(f1.x);
+		Systfm.out.println(f2.x);
+		Systfm.out.println(f3.x);
+		Systfm.out.println(f4.x);
+		Systfm.out.println(f5.x);
+		Systfm.out.println(f6.x);
+	}
+}

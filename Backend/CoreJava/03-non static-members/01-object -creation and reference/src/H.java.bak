@@ -1,0 +1,10 @@
+class H 
+{
+	void test()
+	{
+	}
+	static
+	{
+		System.out.println(i);
+	}
+}

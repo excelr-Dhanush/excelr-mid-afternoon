@@ -1,0 +1,77 @@
+class F
+{
+	F()
+	{
+		System.out.println("F()");
+	}
+
+	F(int i)
+	{
+		this();
+		System.out.println("F(int i)");
+	}
+}
+class T extends F
+{
+	T()
+	{
+		super(10);
+		System.out.println("T()");
+	}
+
+	T(int i)
+	{
+		this();
+		System.out.println("T(int)");
+	}
+}
+class U extends T
+{
+	U()
+	{
+		this(90);
+		System.out.println("U()");
+	}
+
+	U(int i)
+	{
+		super(i);
+		System.out.println("U(int)");
+	}
+}
+class V extends U
+{
+	V()
+	{
+		this(90);
+		System.out.println("V()");
+	}
+
+	V(int i)
+	{
+		super(100);
+		System.out.println("V(int)");
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		F obj1 = new F();
+		System.out.println("-------------");
+		F obj2 = new F(10);
+		System.out.println("-------------");
+		T obj3 = new T();
+		System.out.println("-------------");
+		T obj4 = new T(100);
+		System.out.println("-------------");
+		U obj5 = new U();
+		System.out.println("-------------");
+		U obj6 = new U(1000);
+		System.out.println("-------------");
+		V obj7 = new V();
+		System.out.println("-------------");
+		V obj8 = new V(10000);
+		System.out.println("-------------");
+		System.out.println("main end");
+	}
+}

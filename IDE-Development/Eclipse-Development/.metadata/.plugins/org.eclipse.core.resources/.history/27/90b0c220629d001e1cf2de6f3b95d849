@@ -1,0 +1,12 @@
+package app1.Pack1;
+
+class F
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}
