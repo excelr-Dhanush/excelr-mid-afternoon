@@ -17,7 +17,7 @@ class C extends B
 {
 	public static void main(String[] args) 
 	{
-    	B b1 = new B();
+       	B b1 = new B();
 //		System.out.println(b1.i);
 //		b1.test1();
 //		System.out.println(B.j);

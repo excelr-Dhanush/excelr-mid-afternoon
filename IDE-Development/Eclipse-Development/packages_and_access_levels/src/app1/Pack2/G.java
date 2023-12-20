@@ -5,7 +5,7 @@ public class G
 
 	public static void main(String[] args)
 	{
-		System.out.println("from app1.com.G");
+		System.out.println("from app1.Pack2G");
 
 	}
 

@@ -1,0 +1,2 @@
+Type Casting
+Defination: In java ,type casting is the process that is data type into another data type.
